@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dades>
+   <estudiants>
+     <estudiant>
+       <ID>201</ID>
+       <nom>Anna</nom>
+       <cognom>Serra</cognom>
+       <email>anna@example.com</email>
+     </estudiant>
+     <estudiant>
+       <ID>202</ID>
+       <nom>Biel</nom>
+       <cognom>Amengual</cognom>
+       <email>biel@example.com</email>
+     </estudiant>
+     <estudiant>
+       <ID>203</ID>
+       <nom>Joan</nom>
+       <cognom>García</cognom>
+       <email>joan@example.com</email>
+     </estudiant>
+   </estudiants>
+   <matriculacions>
+     <matricula>
+        <ID>601</ID>
+        <StudentID>201</StudentID>
+        <modul>M06</modul>
+        <nota>8.5</nota>
+     </matricula>
+     <matricula>
+       <ID>602</ID>
+       <StudentID>202</StudentID>
+       <modul>M06</modul>
+        <nota>9.2</nota>
+     </matricula>
+      <matricula>
+       <ID>603</ID>
+       <StudentID>203</StudentID>
+       <modul>M06</modul>
+       <nota>7.9</nota>
+     </matricula>
+   </matriculacions>
+</dades>

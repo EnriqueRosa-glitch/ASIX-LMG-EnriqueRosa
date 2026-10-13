@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+   <producto>
+     <nombre>E-Bike X</nombre>
+     <tipo>Bicicleta</tipo>
+     <autonomia>120 km</autonomia>
+     <precio>1,299 €</precio>
+   </producto>
+   <producto>
+     <nombre>City-Scoot</nombre>
+     <tipo>Patinet</tipo>
+     <autonomia>45 km</autonomia>
+    <precio>549 €</precio> 
+   </producto>
+   <producto>
+     <nombre>Eco-Car Z</nombre>
+     <tipo>Coche</tipo>
+     <autonomia>410 km</autonomia>
+     <precio>31,990 €</precio>
+   </producto>
+</productos>
