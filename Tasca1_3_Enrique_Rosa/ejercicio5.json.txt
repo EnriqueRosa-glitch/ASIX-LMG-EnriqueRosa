@@ -1,0 +1,49 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Satisfacció del servei",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Com valores l'atenció rebuda?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Excel·lent",
+            "Bona",
+            "Regular",
+            "Dolenta"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Què milloraries del servei?",
+          "tipus": "text_lliure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Preferències tecnològiques",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Quin dispositiu utilitzes més?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Ordinador",
+            "Mòbil",
+            "Tauleta"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Quina tecnologia t'agradaria aprendre?",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
