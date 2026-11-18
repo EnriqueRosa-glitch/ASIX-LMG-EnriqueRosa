@@ -1,0 +1,343 @@
+
+/* 1. Configuración general */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Diseño del cuerpo de la página */
+body {
+    background-color: #10121C;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* Diseño del Logo */
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+}
+
+/* 2. Cabecera principal */
+
+.cabecera {
+    background-color: #1B2030;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 3px solid #A855F7;
+}
+
+.cabecera h1 {
+    font-size: 40px;
+    color: #A855F7;
+}
+
+.cabecera h1 span {
+    color: #A855F7;
+}
+
+.cabecera p {
+    color: #CCCCCC;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* 3. Sección de bienvenida */
+.bienvenida {
+    background: linear-gradient(135deg, #1B2030, #25203A);
+    text-align: center;
+    padding: 65px 25px;
+    margin: 25px 20px;
+    border-radius: 15px;
+}
+
+.bienvenida h2 {
+    color: #A855F7;
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+.bienvenida h2 span {
+    color: #A855F7;
+}
+
+.bienvenida p {
+    color: #CCCCCC;
+    font-size: 18px;
+    max-width: 850px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.bienvenida-linea {
+    width: 90px;
+    height: 4px;
+    background-color: #00E5FF;
+    margin: 25px auto 0;
+    border-radius: 5px;
+}
+/* 4. Menú de navegación */
+
+.menu {
+    background-color: #1B2030;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #00E5FF;
+}
+
+/* 5. Noticias destacadas*/
+
+/* Organización de las noticias */
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    padding: 20px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* Título de la sección */
+.noticias h2 {
+    grid-column: 1 / -1;
+    margin-bottom: 5px;
+}
+
+/* Tarjetas individuales */
+.noticia {
+    background-color: #1B2030;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+/* Imágenes de las noticias */
+.noticia img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Texto de las tarjetas */
+.noticia h3,
+.noticia p,
+.noticia a {
+    margin: 12px;
+}
+
+
+/* 6. Calendario de videojuegos */
+
+.calendario {
+    background-color: #1B2030;
+    margin: 30px 20px;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.calendario h2 {
+    color: #A855F7;
+    margin-bottom: 20px;
+}
+
+.calendario table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.calendario caption {
+    color: #00E5FF;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.calendario th,
+.calendario td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #343B55;
+}
+
+.calendario th {
+    background-color: #252C40;
+    color: #00E5FF;
+}
+
+.calendario tr:hover {
+    background-color: #252C40;
+}
+
+/* Estados de los lanzamientos */
+.estado-lanzado {
+    color: #00E5A8;
+    font-weight: bold;
+}
+
+.estado-proximo {
+    color: #A855F7;
+    font-weight: bold;
+}
+
+
+/* 7. Páginas individuales de noticias */
+
+/* Contenedor principal */
+.contenido-noticia {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #1B2030;
+    border-radius: 12px;
+}
+
+/* Títulos del artículo */
+.contenido-noticia h2 {
+    color: #A855F7;
+    margin-bottom: 10px;
+}
+
+.contenido-noticia h3 {
+    color: #00E5FF;
+    margin: 25px 0 12px;
+}
+
+/* Párrafos */
+.contenido-noticia p {
+    color: #CCCCCC;
+    margin: 12px 0;
+    line-height: 1.8;
+}
+
+/* Imagen principal */
+.contenido-noticia img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Pie de imagen */
+.contenido-noticia figcaption {
+    color: #CCCCCC;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* Citas */
+.contenido-noticia blockquote {
+    border-left: 4px solid #A855F7;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #10121C;
+}
+
+/* Enlaces del artículo */
+.contenido-noticia a {
+    color: #00E5FF;
+}
+
+
+/* 8. Enlaces Intereses*/
+
+.enlaces {
+    margin: 30px 20px;
+    padding: 25px;
+}
+
+.enlaces h2 {
+    color: #A855F7;
+    margin-bottom: 12px;
+}
+
+.enlaces p {
+    color: #CCCCCC;
+    margin-bottom: 20px;
+}
+
+.contenedor-enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contenedor-enlaces a {
+    background-color: #1B2030;
+    color: #00E5FF;
+    text-decoration: none;
+    padding: 15px 25px;
+    border: 1px solid #A855F7;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contenedor-enlaces a:hover {
+    background-color: #A855F7;
+    color: #FFFFFF;
+}
+
+
+/* 9. Información sobre la industria*/
+
+.actualidad {
+    background-color: #1B2030;
+    margin: 30px 20px;
+    padding: 25px;
+    border-left: 4px solid #00E5FF;
+    border-radius: 8px;
+}
+
+.actualidad h2 {
+    color: #A855F7;
+    margin-bottom: 15px;
+}
+
+
+/* 10. Pie de página*/
+
+footer {
+    background-color: #1B2030;
+    border-top: 3px solid #A855F7;
+    text-align: center;
+    padding: 25px;
+    color: #CCCCCC;
+}
+
+footer p {
+    margin: 8px;
+}
+
+.video-noticia{
+    margin: 30px 0;
+    text-align: center;
+}
+
+/* Configuración del video trailer GTA VI */
+.video-noticia iframe {
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+}
