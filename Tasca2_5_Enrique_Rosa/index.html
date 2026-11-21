@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechSolutions ofrece servicios de desarrollo de software y redes informáticas.">
+    <title>TechSolutions | Tecnología e informática</title>
+
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+    <header>
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="Logo de TechSolutions">
+            <h2>TechSolutions</h2>
+        </div>
+
+        <!-- Menú de navegación -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Sobre nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PRESENTACIÓN PRINCIPAL -->
+        <section id="inicio" class="presentacion">
+
+            <div class="imagen-principal">
+                <img src="imagenes/portada.jpg" alt="Ordenador portátil">
+            </div>
+
+            <div class="texto-principal">
+                <h1>TechSolutions</h1>
+                <p>Soluciones digitales, desarrollo de software y redes informáticas.</p>
+                <a href="#servicios" class="boton">Descubre nuestros servicios</a>
+            </div>
+
+        </section>
+
+        <!-- SOBRE NOSOTROS -->
+        <section id="nosotros" class="sobre-mi">
+
+            <div class="sobre-mi-titulo">
+                <h2>Sobre nosotros</h2>
+                <img src="imagenes/presentacion.jpg" alt="Pantalla con código de programación">
+            </div>
+
+            <div class="sobre-mi-texto">
+                <p>
+                    En TechSolutions nos dedicamos al mundo de la tecnología,
+                    la informática y el desarrollo de soluciones digitales.
+                </p>
+
+                <p>
+                    Nuestro objetivo es ofrecer servicios tecnológicos
+                    adaptados a las necesidades de cada proyecto.
+                </p>
+
+                <ol>
+                    <li>Desarrollo de páginas web.</li>
+                    <li>Creación de software.</li>
+                    <li>Configuración de redes informáticas.</li>
+                    <li>Mantenimiento de sistemas.</li>
+                </ol>
+
+                <a href="#contacto" class="boton">Más información</a>
+            </div>
+
+        </section>
+
+        <!-- SERVICIOS -->
+        <section id="servicios" class="ofertas">
+
+            <div class="titulo-ofertas">
+                <h2>Nuestros servicios</h2>
+                <p>Descubre nuestras soluciones tecnológicas.</p>
+            </div>
+
+            <div class="rejilla-ofertas">
+
+                <article class="oferta">
+                    <img src="imagenes/oferta_1.jpg" alt="Diseño de páginas web">
+                    <div>
+                        <h3>Diseño web</h3>
+                        <p>Diseño de páginas web modernas y funcionales.</p>
+                    </div>
+                </article>
+
+                <article class="oferta">
+                    <img src="imagenes/oferta_2.jpg" alt="Desarrollo de software">
+                    <div>
+                        <h3>Desarrollo de software</h3>
+                        <p>Creación de aplicaciones y soluciones de software.</p>
+                    </div>
+                </article>
+
+                <article class="oferta">
+                    <img src="imagenes/oferta_3.jpg" alt="Diseño de aplicaciones móviles">
+                    <div>
+                        <h3>Diseño de aplicaciones móviles</h3>
+                        <p>Diseño de aplicaciones para dispositivos móviles con interfaces modernas y funcionales.</p>
+                    </div>
+                </article>
+
+                <article class="oferta">
+                    <img src="imagenes/oferta_4.jpg" alt="Equipos y redes informáticas">
+                    <div>
+                        <h3>Redes y sistemas</h3>
+                        <p>Configuración de redes y mantenimiento informático.</p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- FORMULARIO DE CONTACTO -->
+        <section id="contacto" class="contacto">
+
+            <h2>¿Necesitas una web?</h2>
+
+            <form action="#" method="post">
+
+                <div class="campos-formulario">
+
+                    <div class="columna-formulario">
+
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="descripcion">Descripción</label>
+                        <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+
+                    </div>
+
+                    <div class="columna-formulario">
+
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+
+                        <p>Sexo:</p>
+
+                        <label>
+                            <input type="radio" name="sexo" value="hombre">
+                            Hombre
+                        </label>
+
+                        <label>
+                            <input type="radio" name="sexo" value="mujer">
+                            Mujer
+                        </label>
+
+                        <label>
+                            <input type="radio" name="sexo" value="otro">
+                            Otro
+                        </label>
+
+                        <p>¿Cómo nos has conocido?</p>
+
+                        <label>
+                            <input type="checkbox" name="origen" value="redes">
+                            Redes sociales
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="origen" value="google">
+                            Google
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="origen" value="amigos">
+                            Amigos
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="origen" value="otros">
+                            Otros
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <button type="submit" class="boton">Enviar</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <div class="logo-footer">
+            <h3>TechSolutions</h3>
+        </div>
+
+        <div class="enlaces-footer">
+
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Sobre nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#servicios">Desarrollo web</a></li>
+                <li><a href="#inicio">Volver arriba</a></li>
+            </ul>
+
+        </div>
+
+        <div class="redes-sociales">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </footer>
+
+</body>
+</html>
